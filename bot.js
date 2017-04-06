@@ -64,7 +64,7 @@ client.on('message', message => {
 //! commmands
 client.on('message', message => {
 	if(message.content.toLowerCase() === "!help"){
-		message.channel.sendMessage("Available commands: \n !help \n !uptime \n !isKelvinGay?");
+		message.channel.sendMessage("Available commands: \n !help \n !uptime \n !isKelvinStupid?");
 	}
 
 
@@ -99,7 +99,7 @@ client.on('message', message => {
 	}
 
 
-	if(message.content.toLowerCase() === "!iskelvinstupid?" || message.content.toLowerCase() === "!iskelvingay"){
+	if(message.content.toLowerCase() === "!iskelvinstupid?"){
 		message.reply("Yeah he's really stupid");
 	}
 
